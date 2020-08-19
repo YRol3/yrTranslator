@@ -1,6 +1,6 @@
 function init(){
   this.translator = new Translator('js/lang/');
-  this.translator.set('english');
+  this.translator.set('en');
 }
 
 function changeLanguageTo(language){
