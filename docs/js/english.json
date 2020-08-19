@@ -1,0 +1,12 @@
+{
+  "website.name":"My Awesome Website",
+  "navigation.bar.home":"Home",
+  "navigation.bar.about":"About",
+  "navigation.bar.contact":"Contact",
+  "hebrew":"Hebrew",
+  "english":"English",
+  "current-language-flag":"<img src='assets/flags/us.png' />",
+  "welcome":"Hello & Welcome",
+  "to":"to",
+  "paragraph.welcome":"<div class='p-title'> Welcome </div> <br> <div> This is a weird paragraph  </div>"
+}
