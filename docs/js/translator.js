@@ -8,8 +8,10 @@ class Translator{
     defualtLang = 'en';
     editChild;
     editing = false;
+    folder = ''
     inited = {langFile:false, attributes:false};
-    constructor(htmlElement =  document.querySelector("html")){
+    constructor(folder, htmlElement =  document.querySelector("html")){
+        this.folder = folder;
         this.setPage(htmlElement);
         this.getLanguagePreferenceFromStorage();
         this.loadFile();
@@ -21,7 +23,7 @@ class Translator{
             this.lang = this.defualtLang;
     }
     loadFile = function(){
-        readTextFile(`./js/lang/${this.lang}.json`, 
+        readTextFile(`${this.folder}${this.lang}.json`, 
             (success) => {
                 this.langObject = JSON.parse(success);
                 this.inited.langFile = true;
