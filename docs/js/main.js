@@ -1,5 +1,5 @@
 function init(){
-  this.translator = new Translator();
+  this.translator = new Translator('js/lang');
   this.translator.set('english');
 }
 
