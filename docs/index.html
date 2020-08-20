@@ -1,6 +1,7 @@
 
 <html>
   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script src="js/lang/translator.js"></script>
       <script src="js/main.js"></script>
       <link rel="stylesheet" href="style.css">
@@ -10,7 +11,7 @@
   <!-- call init function (which we will create in main.js) after document fully loaded -->
   <body onload="init()">
     <navbar id="navbar">
-        <ul class="navbar-list">
+        <ul class="navbar-list" page-direction>
             <li page-direction><div class="navbar-item" >{-navigation.bar.home-}</div></li>
             <li page-direction><div class="navbar-item" >{-navigation.bar.about-}</div></li>
             <li page-direction><div class="navbar-item">{-navigation.bar.contact-}</div></li>
@@ -21,6 +22,14 @@
                     <div onclick="setLanguage('en')" class="item">{-english-}</div>
                 </div>
             </li>
+            <div>
+                <div onclick="toggleNavbar()" class="hamburger" id="nav-icon3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
         </ul>  
     </navbar>
     <div class="container">
@@ -38,7 +47,8 @@
             <p>
                 {-paragraph.gibrish.p-}
             </p>
-        </div>   
+        </div>  
+        
         <div class="card">
             <h2>{-paragraph.gibrish.h2-}</h2>
             <p>
