@@ -3,7 +3,7 @@ function init(){
                                             .folder('js/lang/')
                                             .rtlLaugnagesList(['he'])
                                             .defaultLaungage('en')
-                                            .saveToLocalStorage(true)
+                                            .saveToLocalStorage(false)
                                             .attribute('tranlator')
                                             .appendDirectionAttribute("page-direction")
                                             .build();
@@ -12,8 +12,13 @@ function init(){
 function setLanguage(lang){
     this.translator.set(lang);
     toggleLangage();
+    toggleNavbar();
 }
 
 function toggleLangage(){
     document.querySelector(".lang-select").classList.toggle("open");
+}
+
+function toggleNavbar(){
+    document.querySelector(".navbar-list").classList.toggle("open");
 }
