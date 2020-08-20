@@ -52,7 +52,7 @@ class TranslatorOptions{
             folder='', 
             htmlElement = document.querySelector("html"), 
             attribute = 'YRol3TR', 
-            rtlLaugnagesList=['he'], 
+            rtlLaugnagesList=[], 
             defaultLaungage='en', 
             saveToLocalStorage=true,
             appendLangAttribute = '',
@@ -118,7 +118,6 @@ class Translator{
 
     translatePage = function(){
         if(this.inited.attributes && this.inited.langFile){
-            this.setPageDirection();
             this.translate()
             this.addAdditionalAttributes();
         }
@@ -169,6 +168,7 @@ class Translator{
     init(){
         this.getLanguagePreferenceFromStorage();
         this.loadFile();
+        this.setPageDirection();
         this.insertTranslateAttribute();
         this.translatePage();
     }
@@ -215,7 +215,8 @@ class Translator{
             this.lang = lang;
             if(this.saveToLocalStorage)
                 localStorage.setItem("lang", this.lang);
-
+            
+            this.setPageDirection();
             this.loadFile();
         }
     }
