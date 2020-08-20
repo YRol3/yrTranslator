@@ -1,11 +1,11 @@
 # Javascript Translator
-> Simple to use librarery for making your static website dynamicly translateable to any language
+> Simple to use library for making your static website dynamically translatable to any language 
 
-## Why should i use it?
-1. Most of the translation librarerys out there using node, basicly if you are using a static website this is impossible to translate nothing (Github pages for example)
-2. The librarey is very simple to use, just import the script and create Translator
+## Why should I use it?
+1. Most of the translation libraries out there using a node, basically if you are using a static website this is impossible to translate nothing (Github pages for example)
+2. The library is very simple to use, just import the script and create Translator 
 
-## Installation
+## Installation 
 simply download the latest release.
 
 ## Usage example
