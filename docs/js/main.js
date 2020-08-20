@@ -12,7 +12,7 @@ function init(){
 function setLanguage(lang){
     this.translator.set(lang);
     toggleLangage();
-    toggleNavbar();
+    //toggleNavbar();
 }
 
 function toggleLangage(){
