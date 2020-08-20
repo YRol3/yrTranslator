@@ -1,30 +1,68 @@
+
 <html>
   <head>
-     <!-- import librarery -->
-      <script src="js/translator.js"></script>
-      <!-- import your javascript -->
+      <script src="js/lang/translator.js"></script>
       <script src="js/main.js"></script>
-    
-    
+      <link rel="stylesheet" href="style.css">
       <title>{-website.name-}</title>
   </head>
  
   <!-- call init function (which we will create in main.js) after document fully loaded -->
   <body onload="init()">
-    <navbar>
-      <ul>
-        <li><a href="#">{-navigation.bar.home-}</a></li>
-        <li><a href="about.html">{-navigation.bar.about-}</a></li>
-        <li><a href="contact.html">{-navigation.bar.contact-}</a></li>
-        <li><button onclick="changeLanguageTo('he')">{-hebrew-}</button></li>
-        <li><button onclick="changeLanguageTo('en')">{-english-}</button></li>
-        <li><div>{-current.language.flag-}<div></li>
-      <ul>  
+    <navbar id="navbar">
+        <ul class="navbar-list">
+            <li page-direction><div class="navbar-item" >{-navigation.bar.home-}</div></li>
+            <li page-direction><div class="navbar-item" >{-navigation.bar.about-}</div></li>
+            <li page-direction><div class="navbar-item">{-navigation.bar.contact-}</div></li>
+            <li page-direction>
+                <div class="navbar-item" onclick="toggleLangage()"><div class="lang">{-current.lang.flag-} <div class="lang-name">{-current.lang.name-}</div></div></div>
+                <div class="lang-select">
+                    <div onclick="setLanguage('he')" class="item">{-hebrew-}</div>
+                    <div onclick="setLanguage('en')" class="item">{-english-}</div>
+                </div>
+            </li>
+        </ul>  
     </navbar>
-
-    <h1>{-welcome-} {-to-} <strong>{-website.name-}</strong></h1>
-    <p>
-      {-paragraph.welcome-}
-    </p>
+    <div class="container">
+        <div class="card" style="text-align: center;">
+            <h1>{-welcome-} {-to-}-<strong>{-website.name-}</strong></h1>
+        </div>    
+        <div class="card">
+            <h2>{-paragraph.gibrish.h2-}</h2>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+        </div>   
+        <div class="card">
+            <h2>{-paragraph.gibrish.h2-}</h2>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+        </div>   
+        <div class="card">
+            <h2>{-paragraph.gibrish.h2-}</h2>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+            <p>
+                {-paragraph.gibrish.p-}
+            </p>
+        </div>   
+    </div>
   </body>
 </html>
