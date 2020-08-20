@@ -3,10 +3,13 @@
   "navigation.bar.home":"Home",
   "navigation.bar.about":"About",
   "navigation.bar.contact":"Contact",
+  "current.lang.name":"English",
+  "current.lang.flag":"<img class='flag' src='assets/us.jpg' />",
   "hebrew":"Hebrew",
   "english":"English",
-  "current.language.flag":"<img src='assets/flags/en-flag.png' />",
   "welcome":"Hello & Welcome",
   "to":"to",
-  "paragraph.welcome":"<div class='p-title'> Welcome </div> <br> <div> This is a weird paragraph  </div>"
+  "paragraph.welcome":"Welcome <br> This is a welcome paragraph",
+  "paragraph.gibrish.h2":"Lorem ipsum dolor sit amet.",
+  "paragraph.gibrish.p":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rerum vel labore doloribus laborum quibusdam adipisci ipsam inventore sit quae, tempore maiores illo eveniet obcaecati vitae eligendi nemo, nobis harum excepturi at veritatis? Facere vitae mollitia sint perferendis ea iste atque et, deleniti ipsum odio maiores in ex ducimus rerum.  "
 }

@@ -1,14 +1,15 @@
-
-
 {
   "website.name":"האתר המגניב שלי",
   "navigation.bar.home":"בית",
   "navigation.bar.about":"אודות",
   "navigation.bar.contact":"צור קשר",
+  "current.lang.name":"עברית",
+  "current.lang.flag":"<img class='flag' src='assets/israel.png' />",
   "hebrew":"עברית",
   "english":"אנגלית",
-  "current.language.flag":"<img src='assets/flags/he-flag.png' />",
   "welcome":"שלום וברוכים הבאים",
   "to":"ל",
-  "paragraph.welcome":"<div class='p-title'> ברוכים הבאים </div> <br> <div> זו פסקה  </div>"
+  "paragraph.welcome":"ברוכים הבאים <br> זו פסקה",
+  "paragraph.gibrish.h2":"לורם איפסום דולור סיט אמט",
+  "paragraph.gibrish.p":"ורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולהע צופעט למרקוח איבן איף, ברומץ כלרשט מיחוצים. קלאצי לורם איפסום דולור סיט אמט, לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום, לפריקך תצטריק לרטי."
 }
