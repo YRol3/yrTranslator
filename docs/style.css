@@ -122,7 +122,7 @@ body{
         display: block;
         background: #d3531a;
         color:white;
-        font-size: 4em;
+        font-size: 2em;
         left:-100%;
         transition: all 0.5s ease;
     }
